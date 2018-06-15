@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servicefeign:war">
+    <output-path>$PROJECT_DIR$/servicefeign/target</output-path>
+    <root id="archive" name="service-feign-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="servicefeign:war exploded" />
+    </root>
+  </artifact>
+</component>

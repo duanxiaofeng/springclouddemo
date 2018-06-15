@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="1024" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="eureka-client-A" />
+        <module name="eureka-client-B" />
+        <module name="eureka-server" />
+        <module name="service-feign" />
+        <module name="service-zuul" />
+        <module name="servicefeign" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-client-A" target="1.8" />
+      <module name="eureka-client-B" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="service-feign" target="1.8" />
+      <module name="service-zuul" target="1.8" />
+      <module name="servicefeign" target="1.8" />
+      <module name="springclouddemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
